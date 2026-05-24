@@ -1,4 +1,4 @@
-import JobList from "./Joblist";
+import JobList from "./JobList";
 import './App.css';
 
 function App() {
