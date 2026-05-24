@@ -1,9 +1,13 @@
-import JobList from "./jobList";
+import JobList from "./JobList";
+import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="app">
+      <div className="app-header">
       <h1>Find the Perfect Job for You</h1>
+      <p>Browse through our curated list of top engineering roles</p>
+      </div>
       <JobList />
     </div>
   );
